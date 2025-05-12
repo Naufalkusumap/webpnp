@@ -264,7 +264,7 @@ div#preloader {
   left: 0;
   width: 100%;
   height: auto;
-  background: rgba(0, 0, 0, 0.40);
+  background: #F7F7F7;
   z-index: 9;
 }
 
@@ -281,7 +281,7 @@ div#preloader {
 
 .main-menu ul.navbar-nav li a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: #000000;
   font-size: 15px;
   font-weight: 500;
   padding: 24px 0px;
@@ -290,7 +290,7 @@ div#preloader {
 }
 
 .main-menu ul.navbar-nav li.active > a::after {
-  border: 1px solid #fff;
+  border: 1px solid #000000;
   bottom: 0px;
   content: "";
   left: 0;
@@ -300,16 +300,16 @@ div#preloader {
 
 .main-menu ul.navbar-nav li.active a:hover {
   background: none;
-  color: #fff;
+  color: #000000;
 }
 
 .main-menu ul.navbar-nav li.active a:focus {
-  color: #fff;
+  color: #000000;
 }
 
 .main-menu ul.navbar-nav li.active a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: #000000;
   position: relative;
 }
 
@@ -383,7 +383,7 @@ div#preloader {
 /*--------------------------------*/
 
 .header-area.stick {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #F7F7F7;
   height: 70px;
   position: fixed;
   top: 0;
@@ -417,7 +417,7 @@ div#preloader {
   color: #3ec1d5;
 }
 .stick .main-menu ul.navbar-nav li.active > a::after {
-  border: 1px solid #fff;
+  border: 1px solid #000000;
   bottom: 0px;
   content: "";
   left: 0;
@@ -426,23 +426,23 @@ div#preloader {
 }
 
 .stick .main-menu ul.nav>li>a:hover {
-  color: #fff;
+  color: #000000;
 }
 
 .stick .main-menu ul.navbar-nav li.active a {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  color: #fff;
+  color: #000000;
   position: relative;
 }
 
 .stick .mainmenu ul#nav>li:hover>a, .stick .mainmenu ul#nav li .mega-menu, .stick .mainmenu ul#nav li ul.sub-menu {
   background-color: #f5f5f5;
-  color: #fff;
+  color: #000000;
   outline: medium none;
 }
 
 .stick .mainmenu ul#nav li:hover ul.sub-menu li a:hover, .mainmenu ul#nav li .mega-menu span>a:hover, .stick .mainmenu ul#nav li .mega-menu-shop a.mega-menu-title:hover {
-  color: #fff;
+  color: #000000;
 }
 
 .stick .logo {
@@ -454,7 +454,7 @@ div#preloader {
 }
 
 .stick .main-menu ul.nav>li>a {
-  color: #fff;
+  color: #000000;
   line-height: 22px;
   padding: 24px 0px;
   text-transform: capitalize;
@@ -462,7 +462,7 @@ div#preloader {
 }
 
 .stick .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
+  background-color: #000000;
   width: 30px;
   height: 2px;
 }
