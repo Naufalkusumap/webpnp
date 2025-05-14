@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Harry Rizki Perdana Putra - Managing Partner | Perdana Putra & Partners
+    </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      name="description"
+      content="Profile of Harry Rizki Perdana Putra, Managing Partner at Perdana Putra & Partners with expertise in commercial litigation, bankruptcy, and corporate law."
+    />
+    <meta
+      name="keywords"
+      content="lawyer, attorney, legal, Indonesia, commercial litigation, bankruptcy, corporate law, KPPU, KPK"
+    />
+
+    <!-- Favicons -->
+    <link href="img/logo/logopnp.png" rel="icon" />
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/venobox/venobox.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+
+    <!-- Lawyer Profile Custom CSS -->
+    <style>
+      /* Profile Header */
+      .profile-header-area {
+        background-color: #f9f9f9;
+        padding: 60px 0 40px;
+        margin-bottom: 50px;
+      }
+
+      .profile-header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      .profile-image {
+        flex: 0 0 280px;
+        margin-right: 50px;
+        text-align: center;
+      }
+
+      .profile-image img {
+        width: 100%;
+        max-width: 280px;
+        border-radius: 50%;
+        border: 5px solid #fff;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .profile-info {
+        flex: 1;
+      }
+
+      .profile-info h1 {
+        color: #2c3e50;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+
+      .profile-title {
+        font-size: 20px;
+        color: #3498db;
+        margin-bottom: 15px;
+        font-weight: 600;
+      }
+
+      .profile-position {
+        font-style: italic;
+        color: #7f8c8d;
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+
+      .profile-social {
+        margin-top: 20px;
+      }
+
+      .profile-social a {
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        background: #3498db;
+        color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 36px;
+        margin-right: 8px;
+        transition: all 0.3s;
+      }
+
+      .profile-social a:hover {
+        background: #2980b9;
+        transform: translateY(-3px);
+      }
+
+      /* Profile Content */
+      .profile-content-area {
+        padding-bottom: 60px;
+      }
+
+      .profile-section {
+        margin-bottom: 50px;
+      }
+
+      .profile-section h2 {
+        color: #2c3e50;
+        position: relative;
+        padding-bottom: 15px;
+        margin-bottom: 25px;
+        font-weight: 700;
+      }
+
+      .profile-section h2:after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 80px;
+        height: 3px;
+        background: #3498db;
+        bottom: 0;
+        left: 0;
+      }
+
+      .education-item,
+      .certification-item {
+        margin-bottom: 25px;
+        padding-left: 30px;
+        position: relative;
+      }
+
+      .education-item h3,
+      .certification-item h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+        color: #2c3e50;
+      }
+
+      .education-item p,
+      .certification-item p {
+        color: #7f8c8d;
+        margin-bottom: 0;
+      }
+
+      .education-item:before,
+      .certification-item:before {
+        content: "\f19d";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #3498db;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+
+      .certification-item:before {
+        content: "\f0a3";
+      }
+
+      .case-list {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .case-list li {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 15px;
+      }
+
+      .case-list li:before {
+        content: "\f0a1";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #3498db;
+        position: absolute;
+        left: 0;
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .profile-header {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .profile-image {
+          margin-right: 0;
+          margin-bottom: 30px;
+          flex: 0 0 auto;
+        }
+
+        .profile-info {
+          text-align: center;
+        }
+
+        .profile-section h2:after {
+          left: 50%;
+          transform: translateX(-50%);
+        }
+      }
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target="#navbar-example">
+    <div id="preloader"></div>
+
+    <header>
+      <!-- header-area start -->
+      <div id="sticker" class="header-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <!-- Navigation -->
+              <nav class="navbar navbar-default">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header" style="color: white">
+                  <button
+                    type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target=".bs-example-navbar-collapse-1"
+                    aria-expanded="false"
+                  >
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <!-- Brand -->
+                  <a
+                    class="navbar-brand page-scroll sticky-logo"
+                    href="index.html"
+                    style="display: flex; align-items: center"
+                  >
+                    <img
+                      src="img/logo/logo_transparent.png"
+                      alt="Perdana Putra & Partner"
+                      title="Perdana Putra & Partner"
+                      style="
+                        height: 50px;
+                        margin-right: 10px;
+                        margin-bottom: 0px;
+                      "
+                    />
+                  </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div
+                  class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1"
+                  id="navbar-example"
+                >
+                  <ul class="nav navbar-nav navbar-right">
+                    <li>
+                      <a class="page-scroll" href="index.html#home">Home</a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="index.html#about"
+                        >Firm Overview</a
+                      >
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="index.html#lawyers"
+                        >Lawyers</a
+                      >
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="index.html#clients"
+                        >Clients</a
+                      >
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="index.html#articles"
+                        >Articles</a
+                      >
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="index.html#contact"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <!-- navbar-collapse -->
+              </nav>
+              <!-- END: Navigation -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header-area end -->
+    </header>
+    <!-- header end -->
+
+    <!-- Start Profile Header Area -->
+    <div class="profile-header-area">
+      <div class="container">
+        <div class="profile-header">
+          <div class="profile-image">
+            <img
+              src="img/team/harry_circ.png"
+              alt="Harry Rizki Perdana Putra"
+              class="img-responsive"
+            />
+          </div>
+          <div class="profile-info">
+            <h1>Harry Rizki Perdana Putra</h1>
+            <div class="profile-title">S.T., S.H., M.H., CRA</div>
+            <div class="profile-position">Managing Partner</div>
+            <p>
+              With over 10 years of legal practice, Harry specializes in
+              commercial litigation, bankruptcy, and corporate law, representing
+              major cases in Indonesia's legal landscape.
+            </p>
+            <div class="profile-social">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fas fa-envelope"></i></a>
+              <a href="index.html#contact"><i class="fas fa-phone-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Profile Header Area -->
+
+    <!-- Start Profile Content Area -->
+    <div class="profile-content-area">
+      <div class="container">
+        <!-- Professional Profile Section -->
+        <div class="profile-section">
+          <h2>Professional Profile</h2>
+          <p>
+            A former activist turned legal practitioner with more than a decade
+            of experience, Harry Rizki Perdana Putra has established himself as
+            a formidable force in Indonesian legal circles. His extensive
+            network and courtroom expertise have positioned him as a go-to
+            attorney for complex corporate disputes, high-stakes corruption
+            cases, and intricate bankruptcy proceedings.
+          </p>
+
+          <p>
+            Harry's practice spans multiple sectors including banking, palm oil
+            industry, and digital commerce. As a licensed Curator Manager, he
+            has successfully overseen numerous Suspension of Debt Payment and
+            Bankruptcy cases, managing assets valued at approximately USD 50
+            million. His strategic approach to debt restructuring and asset
+            management has earned him recognition in Indonesia's legal
+            community.
+          </p>
+
+          <p>
+            Beyond traditional legal practice, Harry has served as a Digital
+            Ecosystem Consultant, bridging the gap between technology and legal
+            frameworks. His forward-thinking approach to digital commerce
+            regulation has made him a sought-after advisor in Indonesia's
+            rapidly evolving tech landscape.
+          </p>
+        </div>
+
+        <!-- Notable Cases Section -->
+        <div class="profile-section">
+          <h2>Notable Cases & Achievements</h2>
+          <ul class="case-list">
+            <li>
+              Represented Indonesia's largest marketplace platform in landmark
+              antitrust proceedings before the Business Competition Supervisory
+              Commission (KPPU)
+            </li>
+            <li>
+              Defended clients in high-profile corruption cases at both the
+              Corruption Eradication Commission (KPK) and the Attorney General's
+              Office involving state-owned enterprises and private entities
+            </li>
+            <li>
+              Served as Curator Manager for bankruptcy estates with combined
+              assets exceeding USD 50 million
+            </li>
+            <li>
+              Provided strategic counsel as Digital Ecosystem Consultant for
+              major e-commerce platforms
+            </li>
+            <li>
+              Former Audit Committee member on the Board of Commissioners of PT
+              Perkebunan Nusantara V (now Palm Co)
+            </li>
+          </ul>
+        </div>
+
+        <!-- Education Section -->
+        <div class="profile-section">
+          <h2>Education</h2>
+          <div class="education-item">
+            <h3>Master of Law (M.H.)</h3>
+            <p>Faculty of Law, Universitas Indonesia, 2014</p>
+          </div>
+          <div class="education-item">
+            <h3>Bachelor of Law (S.H.)</h3>
+            <p>Faculty of Law, Universitas Islam Indonesia, 2008</p>
+          </div>
+          <div class="education-item">
+            <h3>Bachelor of Planning Engineering (S.T.)</h3>
+            <p>Faculty of Engineering, Universitas Gadjah Mada, 2004</p>
+          </div>
+        </div>
+
+        <!-- Certifications Section -->
+        <div class="profile-section">
+          <h2>Licenses & Certifications</h2>
+          <div class="certification-item">
+            <h3>Certified Risk Analyst (CRA)</h3>
+            <p>Professional certification in risk analysis and management</p>
+          </div>
+          <div class="certification-item">
+            <h3>PERADI License</h3>
+            <p>
+              Indonesian Advocates Association (Perhimpunan Advokat Indonesia)
+            </p>
+          </div>
+          <div class="certification-item">
+            <h3>Manager/Curator License</h3>
+            <p>
+              Issued by the Ministry of Law and Human Rights of the Republic of
+              Indonesia
+            </p>
+          </div>
+        </div>
+
+        <!-- Back Button -->
+        <div class="text-center" style="margin-top: 50px">
+          <a href="index.html#lawyers" class="btn btn-primary btn-lg">
+            <i class="fas fa-arrow-left"></i> Back to Our Lawyers
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End Profile Content Area -->
+
+    <!-- Start Footer bottom Area -->
+    <footer>
+      <div class="footer-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="footer-content">
+                <div class="footer-head">
+                  <div class="footer-logo">
+                    <img
+                      src="img/logo/logo_transparent.png"
+                      style="width: 240px; object-fit: contain"
+                    />
+                  </div>
+                  <p>Providing Legal Solution with Quality and Loyalty</p>
+                </div>
+              </div>
+            </div>
+            <!-- end single footer -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="footer-content">
+                <div class="footer-head">
+                  <h4>information</h4>
+                  <p>For Further Communication:</p>
+                  <div class="footer-contacts">
+                    <p><span>Tel:</span> (62-2) 7817211</p>
+                    <p><span>Fax:</span> (62-21) 7817212</p>
+                    <p><span>Email:</span> legalinfo@perdanaputra.co.id</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end single footer -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="footer-content">
+                <div class="row">
+                  <!-- Start contact icon column -->
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="contact-icon text-center">
+                      <div class="single-icon">
+                        <i class="fa fa-map-marker"></i>
+                        <p>
+                          Location: The Habibie Center<br />
+                          <span
+                            >Jl. Kemang Selatan No. 98, Cilandak Timur<br />Pasar
+                            Minggu, Kota Jakarta Selatan</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-area-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="copyright text-center">
+                <p>
+                  &copy; Copyright
+                  <strong>Perdana Putra & Partners.</strong> All Rights Reserved
+                </p>
+              </div>
+              <div class="credits">
+                Designed by
+                <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/venobox/venobox.min.js"></script>
+    <script src="lib/knob/jquery.knob.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/parallax/parallax.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script
+      src="lib/nivo-slider/js/jquery.nivo.slider.js"
+      type="text/javascript"
+    ></script>
+    <script src="lib/appear/jquery.appear.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
